@@ -6,9 +6,7 @@
  */
 
 module.exports = {
-  
-home:function(req,res){
-    res.send({message:"end point works"})
-}
+  home: function(req, res) {
+    res.send({ message: "woooooww" });
+  }
 };
-

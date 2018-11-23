@@ -11,21 +11,22 @@
  *
  */
 module.exports = function(grunt) {
-
-  grunt.config.set('coffee', {
+  grunt.config.set("coffee", {
     dev: {
       options: {
         bare: true,
         sourceMap: true,
-        sourceRoot: './'
+        sourceRoot: "./"
       },
-      files: [{
-        expand: true,
-        cwd: 'assets/js/',
-        src: ['**/*.coffee'],
-        dest: '.tmp/public/js/',
-        ext: '.js'
-      }]
+      files: [
+        {
+          expand: true,
+          cwd: "assets/js/",
+          src: ["**/*.coffee"],
+          dest: ".tmp/public/js/",
+          ext: ".js"
+        }
+      ]
     }
   });
 
@@ -52,5 +53,4 @@ module.exports = function(grunt) {
   // grunt.loadNpmTasks('grunt-contrib-coffee');
   // ```
   // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
 };
