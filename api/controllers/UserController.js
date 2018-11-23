@@ -8,7 +8,7 @@
 module.exports = {
   
 home:function(req,res){
-    res.send({message:"woooooww"})
+    res.send({message:"end point works"})
 }
 };
 
